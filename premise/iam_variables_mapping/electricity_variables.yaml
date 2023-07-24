@@ -143,7 +143,7 @@ Coal IGCC:
           - plant
           - briquettes
           - ash
-          
+
 Coal PC CCS:
   iam_aliases:
     message: Secondary Energy|Electricity|Coal|w/ CCS|2
@@ -169,7 +169,7 @@ Coal PC CCS:
         - plant
         - briquettes
         - ash
-        
+
 Coal IGCC CCS:
   iam_aliases:
     message: Secondary Energy|Electricity|Coal|w/ CCS|1
@@ -196,7 +196,7 @@ Coal IGCC CCS:
         - plant
         - briquettes
         - ash
-        
+
 Coal CHP:
   iam_aliases:
     remind: SE|Electricity|Coal|++|Combined Heat and Power w/o CC
@@ -358,23 +358,7 @@ Gas CC CCS:
 
   ecoinvent_fuel_aliases:
     fltr:
-      - market group for natural gas
-      - market for natural gas
-      
-Gas ST: # ["Note": "Steam cycle sub cricitcal"]
-  iam_aliases:
-    message: Secondary Energy|Electricity|Gas|w/o CCS|2
-    remind: SE|Electricity|Gas|++|Gas Turbine
-    image: Secondary Energy|Electricity|Gas|w/o CCS|1
-  eff_aliases:
-    message: Efficiency|Electricity|Gas|w/o CCS|2
-    remind: Tech|Electricity|Gas|Gas Turbine|Efficiency
-    image: Efficiency|Electricity|Gas|w/o CCS|1
- ecoinvent_fuel_aliases:
-    fltr:
-      - market group for natural gas
-      - market for natural gas
-
+      - market group for natural gas, high pressure
 
 Geothermal:
   iam_aliases:
@@ -441,7 +425,6 @@ Nuclear_SMR:
 
 Oil ST:
   iam_aliases:
-    message: 
     remind: SE|Electricity|Oil|w/o CC
     image: Secondary Energy|Electricity|Oil|w/o CCS|1
   eff_aliases:
