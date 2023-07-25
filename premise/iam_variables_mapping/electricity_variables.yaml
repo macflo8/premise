@@ -375,6 +375,17 @@ Gas ST: # ["Note": "Steam cycle sub cricitcal"]
       - market group for natural gas
       - market for natural gas
 
+Gas ST CCS: # ["Note": "Steam cycle sub cricitcal"]
+  iam_aliases:
+    message: Secondary Energy|Electricity|Gas|w/ CCS|2
+  eff_aliases:
+    message: Efficiency|Electricity|Gas|w/o CCS|2
+  ecoinvent_fuel_aliases:
+    fltr:
+      - market group for natural gas
+      - market for natural gas
+
+
 Geothermal:
   iam_aliases:
     message: Secondary Energy|Electricity|Geothermal

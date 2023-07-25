@@ -16,7 +16,7 @@ cement - co2:
       - Production|Industry|Cement|Efficient dry feed rotary kiln + Oxy-combustion CCS
       - Production|Industry|Cement|Efficient dry feed rotary kiln
     message:
-      - Carbon Sequestration|CCS|Industrial Processes
+      - Carbon Sequestration|CCS|Industry|Industrial Processes|Non-Metallic Minerals
       - Emissions|CO2|Industrial Processes|Non-Metallic Minerals|Cement
       - Emissions|CO2|Energy|Demand|Industry|Non-Metallic Minerals|Cement
 cement - cco2:
@@ -29,7 +29,7 @@ cement - cco2:
       - Production|Industry|Cement|Efficient dry feed rotary kiln + On-site CCS
       - Production|Industry|Cement|Efficient dry feed rotary kiln + Oxy-combustion CCS
     message:
-      - CCS|Industry|Industrial Processes|Non-Metallic Minerals
+      - Carbon Sequestration|CCS|Industry|Industrial Processes|Non-Metallic Minerals
 steel - co2:
   iam_aliases:
     remind:
