@@ -607,3 +607,12 @@ Wave:
   ecoinvent_aliases:
     fltr:
       - electricity production, wave energy converter
+Generic Storage:
+  iam_aliases:
+    message: Secondary Energy|Electricity|Storage
+  ecoinvent_aliases:
+    fltr:
+      -
+    mask:
+      name:
+        -
